@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.nav{
+    background-color: rgb(120, 111, 111);
+    color: #fff;
+    margin-top: 10px;
+}
+.logo{
+    width: 450px;
+}
+.button{
+    color: #fff;
+    background-color: red;
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+.button:hover{
+    color: black;
+    background-color: rgb(223, 87, 87);
+}
+body{
+    background-color: rgb(226, 130, 130);
+}
+h2, h3{
+    color: #fff;
+}
+.center{
+    text-align: center;
+}
+.centre{
+    width: 70%;
+    margin: auto;
+
+}
+.buttons{
+    display: flex;
+}
+.buttons li{
+    margin: 10px 120px;
+    padding: 10px;
+}
+.buttons li:hover{
+    background-color: #fff;
+    color: black;
+}
+.right{
+    margin-left: 650px;
+}
+.right img{
+    margin: 0px 5px;
+}
+.network{
+    width: 15px;
+}
+.hero{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+.table{
+    border: 1px solid black;
+    display: flex;
+}
+.table1 , .table2{
+    padding: 30px;
+    height: 200px;
+    width: 45%;
+}
+.links li a{
+    margin: 20px 5px;
+    padding: 5px;
+}
+.footer{
+    background-color: rgb(51, 48, 48);
+    color: white;
+    margin-top: 20px;
+}
+.line{
+    display: flex;
+}
+.img-footy{
+    width: 300px;
+    margin: 0 80px;
+}
+li{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+.row li{
+    margin: 30px 20px;
+}
